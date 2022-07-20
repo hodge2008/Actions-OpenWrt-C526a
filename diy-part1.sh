@@ -21,7 +21,7 @@ rm -rf ./package/lean/autocore
 git clone -b main https://github.com/supsupsuperstar/autocore.git package/lean/autocore
 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-#git clone -b 18.06 https://github.com/r1172464137/luci-theme-edge.git package/luci-theme-edge
+git clone -b 18.06 https://github.com/r1172464137/luci-theme-edge.git package/luci-theme-edge
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-jd-dailybonus
 sed -i '$a src-git kenzo https://github.com/supsupsuperstar/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
