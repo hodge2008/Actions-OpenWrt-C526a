@@ -26,5 +26,6 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/l
 sed -i '$a src-git kenzo https://github.com/supsupsuperstar/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # 删除旧主题
+rm -rf feeds/kenzo/luci-theme-argon
 rm -rf package/lean/luci-theme-argon
 
