@@ -18,7 +18,7 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # 下载新主题
 rm -rf ./package/lean/autocore
-git clone -b main https://github.com/supsupsuperstar/autocore.git package/lean/autocore
+git clone -b lede https://github.com/supsupsuperstar/autocore.git package/lean/autocore
 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone -b 18.06 https://github.com/r1172464137/luci-theme-edge.git package/luci-theme-edge
